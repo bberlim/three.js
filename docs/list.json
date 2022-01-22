@@ -265,6 +265,34 @@
 				"LinearInterpolant": "api/en/math/interpolants/LinearInterpolant",
 				"QuaternionLinearInterpolant": "api/en/math/interpolants/QuaternionLinearInterpolant"
 			},
+			
+			"Nodes": {
+				"AttributeNode": "examples/en/nodes/AttributeNode",
+				"ColorNode": "examples/en/nodes/ColorNode",
+				"CondNode": "examples/en/nodes/CondNode",
+				"ExpressionNode": "examples/en/nodes/ExpressionNode",
+				"FloatNode": "examples/en/nodes/FloatNode",				
+				"InputNode": "examples/en/nodes/InputNode",
+				"JoinNode": "examples/en/nodes/JoinNode",
+				"LineBasicNodeMaterial": "examples/en/nodes/LineBasicNodeMaterial",
+				"MathNode": "examples/en/nodes/MathNode",
+				"MeshBasicNodeMaterial": "examples/en/nodes/MeshBasicNodeMaterial",
+				"MeshStandardNodeMaterial": "examples/en/nodes/MeshStandardNodeMaterial",
+				"Node": "examples/en/nodes/Node",
+				"NodeFrame": "examples/en/nodes/NodeFrame",
+				"NormalNode": "examples/en/nodes/NormalNode",
+				"Object3DNode": "examples/en/nodes/Object3DNode",
+				"OperatorNode": "examples/en/nodes/OperatorNode",
+				"PointsNodeMaterial": "examples/en/nodes/PointsNodeMaterial",
+				"PositionNode": "examples/en/nodes/PositionNode",
+				"SplitNode": "examples/en/nodes/SplitNode",
+				"TempNode": "examples/en/nodes/TempNode",
+				"TimerNode": "examples/en/nodes/TimerNode",
+				"UVNode": "examples/en/nodes/UVNode",
+				"Vector2Node": "examples/en/nodes/Vector2Node",
+				"Vector3Node": "examples/en/nodes/Vector3Node",
+				"Vector4Node": "examples/en/nodes/Vector4Node"
+			},
 
 			"Objects": {
 				"Bone": "api/en/objects/Bone",
