@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<base href="../../../" />
+		<script src="page.js"></script>
+		<link type="text/css" rel="stylesheet" href="page.css" />
+	</head>
+	<body>
+		<h1>How to use node material</h1>
+
+		<p>
+			NodeMaterial allows the creation of Shader Graph as well as procedural materials compiled for different outputs such as WebGL and WebGPU.
+		</p>
+		
+		<h2>How it works?</h2>
+
+		<p>
+			Each NodeMaterial is formed by several Nodes, you can customize a Material using existing Nodes and also create your own.
+		</p>
+		<p>		
+			All Nodes can be interconnected and can vary between one or more inputs, but always a single output. Nodes can contain values such as Numbers, Textures, Attributes of a Geometry, Mathematical Functions, among others, customized as you prefer.
+		</p>
+		<p>	
+			Each Node is responsible for emitting an output that can vary depending on the input arguments or the output expected by the parent Node.
+		</p>
+		<p>	
+			Every Node emits a snippet in the output, which is a small snippet of code that represents the result of the code. This code is generated from the Node.generate() function.
+		</p>
+
+		<h2>Node</h2>
+		
+		<p>	
+			It is the smallest fraction of a NodeMaterial, every NodeMaterial is made up of several Nodes, and every AnythingNode.js is extended from a Node.js
+		</p>
+		<p>	
+			A Node can be updated every frame or simply by a constant in the code. Most Nodes are mathematical expressions.
+		</p>
+		
+		<h2>ShaderNode</h2>
+		<p>	
+			NodeMaterial offers its own abstraction language so you don't have to rewrite Shaders for different outputs. This also makes it easier to optimize the shaders themselves for the resources used in Three.js, since NodeBuilder can optimize resources for updates made in the library. Syntax is a fusion of JS + GLSL, you can use JS to create the variables and flow while using GLSL functions.
+		</p>
+		
+		<h2>FunctionNode</h2>
+		<p>	
+			For more specific purposes you can also create custom functions using the default language of your backend, ie GLSL for WebGL or WGSL for WebGPU.
+		</p>
+		
+	</body>
+</html>
