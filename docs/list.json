@@ -269,6 +269,7 @@
 			
 			"Nodes": {
 				"AttributeNode": "examples/en/nodes/AttributeNode",
+				"BufferNode": "examples/en/nodes/BufferNode",
 				"ColorNode": "examples/en/nodes/ColorNode",
 				"CondNode": "examples/en/nodes/CondNode",
 				"ExpressionNode": "examples/en/nodes/ExpressionNode",
@@ -277,6 +278,8 @@
 				"JoinNode": "examples/en/nodes/JoinNode",
 				"LineBasicNodeMaterial": "examples/en/nodes/LineBasicNodeMaterial",
 				"MathNode": "examples/en/nodes/MathNode",
+				"Matrix3Node": "examples/en/nodes/Matrix3Node",
+				"Matrix4Node": "examples/en/nodes/Matrix4Node",
 				"MeshBasicNodeMaterial": "examples/en/nodes/MeshBasicNodeMaterial",
 				"MeshStandardNodeMaterial": "examples/en/nodes/MeshStandardNodeMaterial",
 				"Node": "examples/en/nodes/Node",
@@ -288,6 +291,7 @@
 				"PositionNode": "examples/en/nodes/PositionNode",
 				"SplitNode": "examples/en/nodes/SplitNode",
 				"TempNode": "examples/en/nodes/TempNode",
+				"TextureNode": "examples/en/nodes/TextureNode",
 				"TimerNode": "examples/en/nodes/TimerNode",
 				"UVNode": "examples/en/nodes/UVNode",
 				"Vector2Node": "examples/en/nodes/Vector2Node",
