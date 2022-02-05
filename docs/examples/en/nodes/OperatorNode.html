@@ -7,7 +7,7 @@
 		<link type="text/css" rel="stylesheet" href="page.css" />
 	</head>
 	<body>
-		[page:TempNode] &rarr;
+		[page:Node] &rarr; [page:TempNode] &rarr;
 
 		<h1>[name]</h1>
 
@@ -26,12 +26,79 @@
 
 		<h2>Properties</h2>
 		
-		<h3>[property:Type aNode]</h3>
+		<h3>[property:Node aNode]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type bNode]</h3>
+		<h3>[property:Node bNode]</h3>
 		<p>
+		</p>
+		
+		<p>	
+			<table>
+				<thead>
+					<tr>
+						<th>[page:OperatorNode.op]</th>
+						<th>op casting shadows</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					<tr>
+						<td>+</td>
+						<td>Addition operator.</td>
+					</tr> 
+					<tr>
+						<td>-</td>
+						<td>Subtraction operator.</td>
+					</tr> 
+					<tr>
+						<td>*</td>
+						<td>Multiplication operator.</td>
+					</tr> 
+					<tr>
+						<td>/</td>
+						<td>Division operator.</td>
+					</tr> 
+					<tr>
+						<td>%</td>
+						<td>Remainder operator.</td>
+					</tr> 
+					<tr>
+						<td><</td>
+						<td>Less than operator.</td>
+					</tr> 
+					<tr>
+						<td>></td>
+						<td>Greater than operator.</td>
+					</tr> 
+					<tr>
+						<td><=</td>
+						<td>Less than or equal operator.</td>
+					</tr>
+					<tr>
+						<td>>=</td>
+						<td>Greater than or equal operator.</td>
+					</tr>
+					<tr>
+						<td>==</td>
+						<td>Equality operator.</td>
+					</tr>
+					<tr>
+						<td>!=</td>
+						<td>Inequality operator.</td>
+					</tr>
+					<tr>
+						<td>&&</td>
+						<td>Logical AND.</td>
+					</tr>
+					<tr>
+						<td>||</td>
+						<td>Logical OR.</td>
+					</tr>
+					
+				</tbody>
+			</table>
 		</p>
 		
 		<h3>[property:Type op]</h3>
