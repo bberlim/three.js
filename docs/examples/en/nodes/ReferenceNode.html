@@ -13,36 +13,36 @@
 
 		<h2>Constructor</h2>
 
-		<h3>[name]( property : property, inputType : inputType, object : object )</h3>		
+		<h3>[name]( [param:String property], [param:String inputType], [param:Object object] )</h3>		
 		<p>
-			[page:Object inputType] - An object with one or more properties.
+			[page:String inputType] - An string with the input type.
 		</p>
 		<p>
 			[page:Object object] - (optional) An object with one or more properties.
 		</p>
 		<p>
-			[page:Object property] - An object with one or more properties.	
+			[page:String property] - An string with property.
 		</p>
 
 		<h2>Properties</h2>
 		
-		<h3>[property:Type inputType]</h3>
+		<h3>[property:String inputType]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type node]</h3>
+		<h3>[property:Node node]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type object]</h3>
+		<h3>[property:Object object]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type property]</h3>
+		<h3>[property:String property]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type updateType]</h3>
+		<h3>[property:Object updateType]</h3>
 		<p>
 		</p>
 		
@@ -50,7 +50,7 @@
 		<h2>Methods</h2>
 		<p></p>
 		
-		<h3>[method:ReferenceNode generate]( builder : builder )</h3>
+		<h3>[method:ReferenceNode generate]( [param:NodeBuilder builder] )</h3>
 		<p>
 			Returns Reference Node.
 		</p>
@@ -60,12 +60,12 @@
 			Returns the Node Type.
 		</p>
 		
-		<h3>[method:Void setNodeType]( inputType : inputType )</h3>
+		<h3>[method:Void setNodeType]( [param:String inputType] )</h3>
 		<p>
 			Set the Node Type.
 		</p>
 		
-		<h3>[method:Void update]( frame : frame )</h3>
+		<h3>[method:Void update]( [param:Object frame] )</h3>
 		<p>
 			Update the Reference Node.
 		</p>

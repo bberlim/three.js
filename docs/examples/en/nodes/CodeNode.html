@@ -13,12 +13,12 @@
 
 		<h2>Constructor</h2>
 
-		<h3>[name]( code : code, nodeType : nodeType )</h3>
+		<h3>[name]( [param:String code], [param:String nodeType] )</h3>
 		<p>
-			[page:Object code] - (optional) An object with one or more properties.
+			[page:Object code] - (optional) an string with the code.
 		</p>
 		<p>
-			[page:Object nodeType] - (optional) An object with one or more properties.
+			[page:Object nodeType] - (optional) an string with the node type.
 		</p>
 		
 		<h2>Properties</h2>		
@@ -33,25 +33,21 @@
 		<h3>[property:Node useKeywords]</h3>
 		<p>
 		</p>
-		
-		<h3>[property:Node _includes]</h3>
-		<p>
-		</p>
-		
+
 		<h2>Methods</h2>
 		<p></p>
 		
-		<h3>[method:CodeNode generate]( builder : builder )</h3>
+		<h3>[method:String generate]( [param:NodeBuilder builder] )</h3>
 		<p>
 			Returns the Code Node.
 		</p>
 
-		<h3>[method:NodeType getIncludes]()</h3>
+		<h3>[method:String getIncludes]()</h3>
 		<p>
-			Returns the Node Type.
+			Returns a string whith the Node Type.
 		</p>
 		
-		<h3>[method:NodeType setIncludes]( includes : includes )</h3>
+		<h3>[method:Object setIncludes]( [param:String includes] )</h3>
 		<p>
 			Set the includes.
 		</p>

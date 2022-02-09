@@ -13,9 +13,9 @@
 
 		<h2>Constructor</h2>
 
-		<h3>[name]( scope : POSITION )</h3>
+		<h3>[name]( [param:Object scope] )</h3>
 		<p>
-			[page:Object scope] - (optional) an object with one or more properties defining the Color.	
+			[page:Object scope] - (optional) an object with one or more properties defining the position.
 		</p>
 
 		<h2>Properties</h2>		
@@ -46,17 +46,17 @@
 		<h2>Methods</h2>
 		<p></p>
 		
-		<h3>[method:NodeType generate]( builder : builder )</h3>
+		<h3>[method:String generate]( [param:NodeBuilder builder] )</h3>
 		<p>
-			Returns the Node Builder.
+			Returns a generated string
 		</p>
 		
-		<h3>[method:NodeType getNodeType]( builder : builder )</h3>
+		<h3>[method:String getNodeType]( [param:NodeBuilder builder] )</h3>
 		<p>
 			Returns the String Node Type.
 		</p>
 		
-		<h3>[method:NodeType update]( frame : frame )</h3>
+		<h3>[method:Void update]( [param:Object frame] )</h3>
 		<p>
 			Update the Camera Node.
 		</p>

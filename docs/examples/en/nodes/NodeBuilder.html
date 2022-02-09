@@ -13,56 +13,56 @@
 
 		<h2>Constructor</h2>
 
-		<h3>[name]( object : object, renderer : renderer, parser : parser )</h3>
+		<h3>[name]( [param:Object object], [param:Object renderer], [param:Object parser] )</h3>
 		<p>
-			[page:Object object] - An object with one or more properties.
+			[page:Object object] - an object.
 		</p>
 		<p>
-			[page:Object parser] - An object with one or more properties.
+			[page:Object parser] - an object with the parser.
 		</p>
 		<p>
-			[page:Object renderer] - An object with one or more properties.
+			[page:Object renderer] - An object with the renderer.
 		</p>
 		
 		<h2>Properties</h2>		
 		
-		<h3>[property:Type attributes]</h3>
+		<h3>[property:Array attributes]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type codes]</h3>
+		<h3>[property:Object codes]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type context]</h3>
+		<h3>[property:Object context]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type flow]</h3>
+		<h3>[property:Object flow]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type flowCode]</h3>
+		<h3>[property:Object flowCode]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type flowsData]</h3>
+		<h3>[property:Object flowsData]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Node flowNodes]</h3>
+		<h3>[property:Object flowNodes]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type fragmentShader]</h3>
+		<h3>[property:Object fragmentShader]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type hashNodes]</h3>
+		<h3>[property:Object hashNodes]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type material]</h3>
+		<h3>[property:Material material]</h3>
 		<p>
 		</p>
 		
@@ -70,73 +70,73 @@
 		<p>
 		</p>
 		
-		<h3>[property:Node nodes]</h3>
+		<h3>[property:Array nodes]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type nodesData]</h3>
+		<h3>[property:Object nodesData]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type object]</h3>
+		<h3>[property:Object object]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type parser]</h3>
+		<h3>[property:Object parser]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type renderer]</h3>
+		<h3>[property:Object renderer]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type shaderStage]</h3>
+		<h3>[property:String shaderStage]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type stack]</h3>
+		<h3>[property:Array stack]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type uniforms]</h3>
+		<h3>[property:Object uniforms]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Node updateNodes]</h3>
+		<h3>[property:Array updateNodes]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type vars]</h3>
+		<h3>[property:Object vars]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type varys]</h3>
+		<h3>[property:Array varys]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Type vertexShader]</h3>
+		<h3>[property:String vertexShader]</h3>
 		<p>
 		</p>
 		
 		<h2>Methods</h2>
 		<p></p>
 		
-		<h3>[method:Void addFlow]( shaderStage : shaderStage, node : node )</h3>
+		<h3>[method:Void addFlow]( [param:String shaderStage], [param:Node node] )</h3>
 		<p>
 			Add Flow.
 		</p>
 		
-		<h3>[method:Void addFlowCode]( code : code )</h3>
+		<h3>[method:Void addFlowCode]( [param:String code] )</h3>
 		<p>
 			Add Flow Node.
 		</p>
 		
-		<h3>[method:Void addNode]( node : node )</h3>
+		<h3>[method:Void addNode]( [param:Node node] )</h3>
 		<p>
 			Add Node.
 		</p>
 		
-		<h3>[method:Void addStack]( node : node )</h3>
+		<h3>[method:Void addStack]( [param:Node node] )</h3>
 		<p>
 			Add Stack.
 		</p>
@@ -151,52 +151,52 @@
 			
 		</p>
 		
-		<h3>[method:Flow flowChildNode]( node : node, output : output )</h3>
+		<h3>[method:Flow flowChildNode]( [param:Node node], [param:String output] )</h3>
 		<p>
 			Set Flow Child.
 		</p>
 		
-		<h3>[method:FlowData flowNode]( node : node )</h3>
+		<h3>[method:FlowData flowNode]( [param:Node node] )</h3>
 		<p>
 			Set the Flow Node.
 		</p>
 		
-		<h3>[method:FlowData flowNodeFromShaderStage]( shaderStage : shaderStage, node : node, output : output, propertyName : propertyName )</h3>
+		<h3>[method:FlowData flowNodeFromShaderStage]( [param:String shaderStage], [param:Node node], [param:String output], [param:String propertyName] )</h3>
 		<p>
 			Set the Flow Node From Shader Stage.
 		</p>
 		
-		<h3>[method:Snippet format]( snippet : snippet, fromType : fromType, toType : toType )</h3>
+		<h3>[method:Snippet format]( [param:String snippet], [param:String fromType], [param:String toType] )</h3>
 		<p>
 			Return the snippet.
 		</p>
 		
-		<h3>[method:Method generateMethod]( method : method )</h3>
+		<h3>[method:Method generateMethod]( [param:String method] )</h3>
 		<p>
 			Return the method.
 		</p>
 		
-		<h3>[method:Attribute getAttribute]( name : name, type : type )</h3>
+		<h3>[method:Attribute getAttribute]( [param:String name], [param:String type] )</h3>
 		<p>
 			Return the attribute.
 		</p>
 		
-		<h3>[method:Snippet getAttributes]( shaderStage : shaderStage )</h3>
+		<h3>[method:Snippet getAttributes]( [param:String shaderStage] )</h3>
 		<p>
 			Return the snippet.
 		</p>
 		
-		<h3>[method:NodeCode getCodeFromNode]( node : node, type : type, shaderStage : shaderStage )</h3>
+		<h3>[method:NodeCode getCodeFromNode]( [param:Node node], [param:String type], [param:String shaderStage] )</h3> 
 		<p>
 			Return the Node Code.
 		</p>
 		
-		<h3>[method:Code getCodes]( shaderStage : shaderStage )</h3>
+		<h3>[method:Code getCodes]( [param:String shaderStage] )</h3>
 		<p>
 			Return the Const.
 		</p>
 		
-		<h3>[method:Const getConst]( type : type, value : value )</h3>
+		<h3>[method:Const getConst]( [param:String type], [param:Object value] )</h3>
 		<p>
 			Return the Const.
 		</p>
@@ -211,12 +211,12 @@
 			
 		</p>
 		
-		<h3>[method:ShaderStage  getDataFromNode]( node : node, shaderStage : shaderStage )</h3>
+		<h3>[method:ShaderStage  getDataFromNode]( [param:Node node], [param:String shaderStage] )</h3>
 		<p>
 			Return the Shader Stage.
 		</p>
 		
-		<h3>[method:FlowData getFlowData]( shaderStage : shaderStage, node : node )</h3>
+		<h3>[method:FlowData getFlowData]( [param:String shaderStage], [param:Node node] )</h3>
 		<p>
 			Return the Flow Data.
 		</p>
@@ -236,7 +236,7 @@
 			Return the Hash Nodes.
 		</p>
 		
-		<h3>[method:Name getPropertyName]( node : node )</h3>
+		<h3>[method:Name getPropertyName]( [param:Node node] )</h3>
 		<p>
 			Return the Name.
 		</p>
@@ -261,22 +261,22 @@
 			Return the Encoding.
 		</p>
 		
-		<h3>[method:Type getType]( type : type )</h3>
+		<h3>[method:Type getType]( [param:String type] )</h3>
 		<p>
 			Return the Type.
 		</p>
 		
-		<h3>[method:Type getTypeFromLength]( type : type )</h3>
+		<h3>[method:Type getTypeFromLength]( [param:String type] )</h3>
 		<p>
 			Return the Type.
 		</p>
 		
-		<h3>[method:Type getTypeLength]( type : type )</h3>
+		<h3>[method:Type getTypeLength]( [param:String type] )</h3>
 		<p>
 			Return the Type.
 		</p>
 		
-		<h3>[method:NodeUniform getUniformFromNode]( node : node, shaderStage : shaderStage, type : type )</h3>
+		<h3>[method:NodeUniform getUniformFromNode]( [param:Node node], [param:String shaderStage], [param:String type] )</h3>
 		<p>
 			Return the Node Uniform.
 		</p>
@@ -285,17 +285,17 @@
 		<p>
 		</p>
 		
-		<h3>[method:NodeVar getVarFromNode]( node : node, type : type, shaderStage : shaderStage )</h3>
+		<h3>[method:NodeVar getVarFromNode]( [param:Node node], [param:String type], [param:String shaderStage] )</h3>
 		<p>
 			Return the Node Var.
 		</p>
 		
-		<h3>[method:NodeVary getVaryFromNode]( node : node, type : type )</h3>
+		<h3>[method:NodeVary getVaryFromNode]( [param:Node node], [param:String type] )</h3>
 		<p>
 			Return the Node Vary.
 		</p>
 		
-		<h3>[method:Snippet getVars]( shaderStage : shaderStage )</h3>
+		<h3>[method:Snippet getVars]( [param:String shaderStage] )</h3>
 		<p>
 			Return the Snippet.
 		</p>
@@ -304,42 +304,42 @@
 		<p>
 		</p>
 		
-		<h3>[method:Vector getVectorFromMatrix]( type : type )</h3>
+		<h3>[method:Vector getVectorFromMatrix]( [param:String type] )</h3>
 		<p>
 			Return the Vector From Matrix.
 		</p>
 		
-		<h3>[method:Type getVectorType]( type : type )</h3>
+		<h3>[method:Type getVectorType]( [param:String type] )</h3>
 		<p>
 			Return the Type.
 		</p>
 		
-		<h3>[method:IsMatrix isMatrix]( type : type )</h3>
+		<h3>[method:Boolean isMatrix]( [param:String type] )</h3>
 		<p>
 			Return the isMatrix.
 		</p>
 		
-		<h3>[method:IsShaderStage isShaderStage]( shaderStage : shaderStage )</h3>
+		<h3>[method:Boolean isShaderStage]( [param:String shaderStage] )</h3>
 		<p>
 			Return if Is Shader Stage.
 		</p>
 		
-		<h3>[method:IsVector isVector]( type : type )</h3>
+		<h3>[method:Boolean isVector]( [param:String type] )</h3>
 		<p>
 			Return if Is Vector.
 		</p>
 		
-		<h3>[method:Void removeStack]( node : node )</h3>
+		<h3>[method:Void removeStack]( [param:Node node] )</h3>
 		<p>
 			Remove stack.
 		</p>
 		
-		<h3>[method:Void setContext]( context : context )</h3>
+		<h3>[method:Void setContext]( [param:Object context] )</h3>
 		<p>
 			Set the Context.
 		</p>
 		
-		<h3>[method:Void setShaderStage]( shaderStage : shaderStage )</h3>
+		<h3>[method:Void setShaderStage]( [param:String shaderStage] )</h3>
 		<p>
 			Set the Shader Stage.
 		</p>

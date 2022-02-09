@@ -13,16 +13,16 @@
 
 		<h2>Constructor</h2>
 
-		<h3>[name]( inputType : inputType )</h3>
+		<h3>[name]( [param:NodeBuilder inputType] )</h3>
 		<p>
-			[page:Type inputType] - An object with one or more properties defining the Input Node.
+			[page:String inputType] - An object with one or more properties defining the Input Node.
 		</p>
 
 		<h2>Properties</h2>
-		<h3>[property:Type constant]</h3>
+		<h3>[property:Boolean constant]</h3>
 		<p></p>
 		
-		<h3>[property:Type inputType]</h3>
+		<h3>[property:String inputType]</h3>
 		<p>
 		</p>
 
@@ -32,12 +32,12 @@
 		<h2>Methods</h2>
 		<p></p>
 
-		<h3>[method:BuilderFormat generate]( builder : builder, output : output )</h3>
+		<h3>[method:BuilderFormat generate]( [param:NodeBuilder builder] , [param:String output] )</h3>
 		<p>
 			Returns the Builder Format.
 		</p>
 
-		<h3>[method:InputNodeConstant generateConst]( builder : builder )</h3>
+		<h3>[method:InputNodeConstant generateConst]( [param:NodeBuilder builder]  )</h3>
 		<p>
 			Returns the Input Node Constant.
 		</p>
@@ -52,15 +52,12 @@
 			Returns the Input Type.
 		</p>
 
-		<h3>[method:InputNodeConstant setConst]( value : value )</h3>
+		<h3>[method:InputNode setConst]( [param:Boolean value] )</h3>
 		<p>
 			Set the Input Node Constant.
 		</p>
 
-		<h2>Source</h2>
-		<!--
-		[link:https://github.com/mrdoob/three.js/blob/master/src/[path].js src/[path].js]
-		https://github.com/mrdoob/three.js/blob/master/examples/jsm/renderers/nodes/core/Node.js-->
+		<h2>Source</h2>		
 		<p>
 			[link:https://github.com/mrdoob/three.js/blob/master/examples/jsm/renderers/nodes/core/InputNode.js examples/jsm/renderers/nodes/core/InputNode.js]		
 		</p>

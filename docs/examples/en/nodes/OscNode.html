@@ -13,12 +13,12 @@
 		
 		<h2>Constructor</h2>
 
-		<h3>[name]( method : method, timeNode : timeNode )</h3>
+		<h3>[name]( [param:String method], [param:TimerNode timeNode] )</h3>
 		<p>
-			[page:Object method] - (optional) An object with one or more properties.
+			[page:String method] - (optional) An string with the method.
 		</p>
 		<p>
-			[page:Object timeNode] - (optional) An object with one or more properties.
+			[page:TimerNode timeNode] - (optional) An object with the timeNode.
 		</p>
 
 		<h2>Properties</h2>		
@@ -54,23 +54,23 @@
 			</table>
 		</p>
 		
-		<h3>[property:Type method]</h3>
+		<h3>[property:String method]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Node timeNode]</h3>
+		<h3>[property:TimerNode timeNode]</h3>
 		<p>
 		</p>
 
 		<h2>Methods</h2>
 		<p></p>
 
-		<h3>[method:OscNode generate]( builder : builder )</h3>
+		<h3>[method:OscNode generate]( [param:NodeBuilder builder] )</h3>
 		<p>			
 			Returns the Osc Node.
 		</p>
 		
-		<h3>[method:NodeType getNodeType]( builder : builder )</h3>
+		<h3>[method:NodeType getNodeType]( [param:NodeBuilder builder] )</h3>
 		<p>			
 			Returns the Node Type.
 		</p>

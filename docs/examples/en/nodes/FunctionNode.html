@@ -13,9 +13,9 @@
 
 		<h2>Constructor</h2>
 
-		<h3>[name]( code : code )</h3>
+		<h3>[name]( [param:String code] )</h3>
 		<p>
-			[page:Object code] - (optional) An object with one or more properties.
+			[page:String code] - (optional) a string with the code.
 		</p>
 		
 		<h2>Properties</h2>		
@@ -26,27 +26,27 @@
 		<h2>Methods</h2>
 		<p></p>
 		
-		<h3>[method:FunctionCallNode call]( parameters : parameters )</h3>
+		<h3>[method:FunctionCallNode call]( [param:Array parameters] )</h3>
 		<p>
-			Set the Function Call Node.
+			Returns the Function Call Node.
 		</p>
 		
-		<h3>[method:FunctionNode generate]( builder : builder )</h3>
+		<h3>[method:FunctionNode generate]( [param:NodeBuilder builder] )</h3>
 		<p>
 			Returns Function Node.
 		</p>
 		
-		<h3>[method:Inputs getInputs]( builder : builder )</h3>
+		<h3>[method:Inputs getInputs]( [param:NodeBuilder builder] )</h3>
 		<p>
 			Returns the Inputs.
 		</p>
 
-		<h3>[method:NodeFunction getNodeFunction]( builder : builder )</h3>
+		<h3>[method:NodeFunction getNodeFunction]( [param:NodeBuilder builder] )</h3>
 		<p>
-			Set the Node Function.
+			Returns the Node Function.
 		</p>
 
-		<h3>[method:NodeType getNodeType]( builder : builder )</h3>
+		<h3>[method:NodeType getNodeType]( [param:NodeBuilder builder] )</h3>
 		<p>
 			Returns the Node Type.
 		</p>

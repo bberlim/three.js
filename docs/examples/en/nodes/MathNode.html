@@ -13,18 +13,18 @@
 
 		<h2>Constructor</h2>
 
-		<h3>[name]( method : method, aNode : aNode, bNode : bNode, cNode : cNode )</h3>		
+		<h3>[name]( [param:Object method], [param:Node aNode], [param:Node bNode], [param:Node cNode] )</h3>		
 		<p>
-			[page:Object aNode] - (optional) an object with one or more properties.
+			[page:Node aNode] - (optional) a object with the Node.
 		</p>
 		<p>
-			[page:Object bNode] - (optional) an object with one or more properties.
+			[page:Node bNode] - (optional) an object with the Node.
 		</p>
 		<p>
-			[page:Object cNode] - (optional) an object with one or more properties.
+			[page:Node cNode] - (optional) an object with the Node.
 		</p>
 		<p>
-			[page:Object method] - (optional) an object with one or more properties.	
+			[page:String method] - (optional) a string with the method.
 		</p>
 
 		<h2>Properties</h2>
@@ -216,7 +216,7 @@
 			</table>
 		</p>
 		
-		<h3>[property:Type method]</h3><p></p>
+		<h3>[property:String method]</h3><p></p>
 		
 		<h2>Methods</h2>
 		<p></p>
@@ -226,17 +226,15 @@
 			Returns Node Vary Build.
 		</p>
 		
-		<h3>[method:InputType getInputType]( builder : builder )</h3>
+		<h3>[method:String getInputType]( [param:NodeBuilder builder] )</h3>
 		<p>
 			Returns the Input Type.
 		</p>
 		
-		<h3>[method:NodeType getNodeType]( builder : builder )</h3>
+		<h3>[method:String getNodeType]( [param:NodeBuilder builder] )</h3>
 		<p>
 			Returns the Math Node.
 		</p>
-
-		
 
 		<h2>Source</h2>
 		<p>

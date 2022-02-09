@@ -13,15 +13,15 @@
 		
 		<h2>Constructor</h2>
 
-		<h3>[name]( countNode : countNode, uvNode : uvNode, frameNode : frameNode )</h3>
+		<h3>[name]( [param:Integer countNode], [param:UVNode uvNode], [param:FloatNode frameNode] )</h3>
 		<p>
-			[page:Object countNode] - An object with one or more properties.
+			[page:Integer countNode] - an integer with the count node.
 		</p>
 		<p>
-			[page:Object frameNode] - (optional) An object with one or more properties.
+			[page:FloatNode frameNode] - (optional) an object with the frame node.
 		</p>
 		<p>
-			[page:Object uvNode] - (optional) An object with one or more properties.
+			[page:UVNode uvNode] - (optional) an object with the uv node.
 		</p>
 
 		<h2>Properties</h2>		
@@ -30,18 +30,18 @@
 		<p>
 		</p>
 		
-		<h3>[property:Node frameNode]</h3>
+		<h3>[property:FloatNode frameNode]</h3>
 		<p>
 		</p>
 		
-		<h3>[property:Node uvNode]</h3>
+		<h3>[property:UVNode uvNode]</h3>
 		<p>
 		</p>
 		
 		<h2>Methods</h2>
 		<p></p>
 
-		<h3>[method:UvFrame generate]( builder : builder )</h3>
+		<h3>[method:UvFrame generate]( [param:NodeBuilder builder] )</h3>
 		<p>			
 			Returns the Uv Frame.
 		</p>

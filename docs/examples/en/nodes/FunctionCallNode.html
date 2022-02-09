@@ -13,12 +13,12 @@
 
 		<h2>Constructor</h2>
 
-		<h3>[name]( functionNode : functionNode, parameters : parameters )</h3>
+		<h3>[name]( [param:Node functionNode], [param:Array parameters] )</h3>
 		<p>
-			[page:Object functionNode] - (optional) An object with one or more properties.
+			[page:Node functionNode] - (optional) an object with the functionNode.
 		</p>
 		<p>
-			[page:Object parameters] - (optional) An object with one or more properties.
+			[page:Object parameters] - (optional) an object with the parameters.
 		</p>
 		
 		<h2>Properties</h2>		
@@ -34,22 +34,22 @@
 		<h2>Methods</h2>
 		<p></p>
 		
-		<h3>[method:FunctionCallNode generate]( builder : builder )</h3>
+		<h3>[method:FunctionCallNode generate]( [param:NodeBuilder builder]  )</h3>
 		<p>
 			Returns FunctionCallNode.
 		</p>
 
-		<h3>[method:NodeType getNodeType]( builder : builder )</h3>
+		<h3>[method:NodeType getNodeType]( [param:NodeBuilder builder]  )</h3>
 		<p>
 			Returns the Node Type.
 		</p>
 		
-		<h3>[method:Parameters getParameters]()</h3>
+		<h3>[method:Array getParameters]()</h3>
 		<p>
 			Returns the Parameters.
 		</p>
 		
-		<h3>[method:Parameters setParameters]( parameters : parameters )</h3>
+		<h3>[method:FunctionCallNode setParameters]( [param:Array parameters] )</h3>
 		<p>
 			Set the Parameters.
 		</p>

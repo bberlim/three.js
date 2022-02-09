@@ -13,15 +13,18 @@
 
 		<h2>Constructor</h2>
 
-		<h3>[name]( op : op, aNode : aNode ...params)</h3>		
+		<h3>[name]( [param:String op], [param:Node aNode], [param:Node bNode], [param:Array params] )</h3>
 		<p>
-			[page:Object aNode] - (optional) an object with one or more properties.
+			[page:Node aNode] - an Node with the node.
 		</p>
 		<p>
-			[page:Object op] - (optional) an object with one or more properties.	
+			[page:Node bNode] - an Node with the node.
 		</p>
 		<p>
-			[page:Object params] - (optional) an object with one or more properties.
+			[page:String op] - an string with the op.
+		</p>
+		<p>
+			[page:Array params] - an array with the nodes.
 		</p>
 
 		<h2>Properties</h2>
@@ -101,19 +104,19 @@
 			</table>
 		</p>
 		
-		<h3>[property:Type op]</h3>
+		<h3>[property:String op]</h3>
 		<p>
 		</p>
 		
 		<h2>Methods</h2>
 		<p></p>
 
-		<h3>[method:OperatorNode generate]( builder : builder, output : output )</h3>
+		<h3>[method:OperatorNode generate]( [param:NodeBuilder builder], [param:Object output] )</h3>
 		<p>
 			Returns the Operator Node.
 		</p>
 		
-		<h3>[method:NodeType getNodeType]( builder : builder, output : output )</h3>
+		<h3>[method:NodeType getNodeType]( [param:NodeBuilder builder], [param:Object output] )</h3>
 		<p>
 			Returns Node Type.
 		</p>
